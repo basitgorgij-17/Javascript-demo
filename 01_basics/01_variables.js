@@ -10,6 +10,8 @@ accountPassword = "ab17"
 accountCity = "Balochistan"
 
 console.log([accountID]);
-
-g
+/* 
+prefer not to use VAR
+because of issue in block scope and functional scope
+*/
 console.table([accountID, accountEmail, accountPassword, accountCity])
