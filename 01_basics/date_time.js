@@ -20,3 +20,20 @@ myDate = date.toLocaleString('default',{
 })
 
 
+// How to convert reamining Date millisecond convert into Day
+let today = new Date();
+let futureDate = new Date ("July 20, 2035")
+
+let msToday = today.getTime()
+let msFutureDate = futureDate.getTime()
+
+msRemain = msFutureDate - msToday;
+dRemain = msRemain / (1000 * 60 * 60 *24) 
+dRemain = Math.floor(dRemain);
+
+
+console.log(msToday)
+console.log(msFutureDate)
+console.log(msRemain)
+console.log(dRemain)
+
