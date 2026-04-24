@@ -23,7 +23,7 @@ console.log(userDetails["email"])
 console.log(userDetails['fullName']) 
 console.log(userDetails.isActiveDay[0])  //Array access trick
 
-// Symbol value in square Notation
+// Symbol value access in square Notation
 console.log(userDetails[sym])
 
 

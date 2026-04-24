@@ -4,29 +4,29 @@ const fobricsMen = ['Ronaldo', 'Messi', 'Kabbib', 'Rafel nadal']
 
 //This not merged two array
 marvelHeros.push(dcHeros)
-console.log(marvelHeros)
+// console.log(marvelHeros)
 
 // This way be merged array 
 
 let heros = marvelHeros.concat(dcHeros)
-console.log(heros)
+// console.log(heros)
 
 // This spread operator way be array merged
 const superHeros = [...marvelHeros, ...dcHeros, ...fobricsMen]
-console.log(superHeros)
+// console.log(superHeros)
 
 
 // Nested Array
 
 const nestedArr = [1,2,3, [4,5,7], [8, 9, [4, 5, 8]]]
 let mergeArr = nestedArr.flat(Infinity)
-console.log(mergeArr)
+// console.log(mergeArr)
 
 
 // understand Array advance method
 
 // ask this is array and not
-console.log(Array.isArray('Basit'));
+console.log(Array.isArray(nestedArr));
 
 // convert string into Array 
 console.log(Array.from("BASIT"));

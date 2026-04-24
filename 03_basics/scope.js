@@ -23,7 +23,7 @@
 // console.log(c);
 
 // Nested Function (call Stack)
-    //function/loop/if-else: parent can't access child value and child can parent value
+    //function/loop/if-else: parent can't access child value and child can access parent value
 function one(){
    const name = 'Abdul Basit'
 
